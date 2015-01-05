@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Crafty</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/jquery.js"></script>
+	<noscript>
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+
+<style type="text/css">
+  .vjs-default-skin { color: #ffffff; }
+  .vjs-default-skin .vjs-control-bar,
+  .vjs-default-skin .vjs-big-play-button { background: rgba(85,57,57,0.7) }
+  .vjs-default-skin .vjs-slider { background: rgba(85,57,57,0.2333333333333333) }
+  .vjs-default-skin .vjs-control-bar { font-size: 70% }
+</style>
+	
+<link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet">
+<script src="http://vjs.zencdn.net/4.3/video.js"></script>
+    
+</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header">
+						
+				<!-- Inner -->
+					<div class="inner">
+						<header>
+							<h1><a href="#" id="logo">Crafty</a></h1>
+							
+							<span class="byline">Find your Genius</span>
+						</header>
+						<footer>
+							<a href="#banner" class="button circled scrolly">Explore</a>
+						</footer>
+					</div>
+				
+
+			</div>
+			
+	
+
+		<!-- Main -->
+			<div class="wrapper style2">
+            <div id="banner"
+
+				<article id="main" class="container special">
+					                
+					<header>
+						<h2>Catagories</h2>
+						<span class="byline">
+							Choose your interests
+						</span>
+					</header>
+				</div>
+				</div>	
+			
+
+
+<div class="container">
+  <ul>
+    <li class="dropdown">
+      <a href="##" data-toggle="dropdown">Sports<i class="icon-arrow"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="##">Teach</a></li>
+        <li><a href="##">Learn</a></li>
+      </li>
+    </ul>
+ </div>	
+
+<div class="container2">
+     <ul>
+    <li class="dropdown">
+      <a href="##" data-toggle="dropdown">Art<i class="icon-arrow"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="##">Teach</a></li>
+        <li><a href="##">Learn</a></li>
+      </li>
+    </ul>
+</div>
+
+
+<div class="container3">
+     <ul>
+    <li class="dropdown">
+      <a href="##" data-toggle="dropdown">Technology<i class="icon-arrow"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="##">Teach</a></li>
+        <li><a href="##">Learn</a></li>
+      </li>
+    </ul>
+</div>
+
+
+<div class="container4">
+     <ul>
+    <li class="dropdown">
+      <a href="##" data-toggle="dropdown">Academics<i class="icon-arrow"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="##">Teach</a></li>
+        <li><a href="##">Learn</a></li>
+      </li>
+    </ul>
+</div>
+
+
+<script>
+	var dropdown = document.querySelectorAll('.dropdown');
+var dropdownArray = Array.prototype.slice.call(dropdown,0);
+dropdownArray.forEach(function(el){
+    var button = el.querySelector('a[data-toggle="dropdown"]'),
+            menu = el.querySelector('.dropdown-menu'),
+            arrow = button.querySelector('i.icon-arrow');
+
+    button.onclick = function(event) {
+        if(!menu.hasClass('show')) {
+            menu.classList.add('show');
+            menu.classList.remove('hide');
+            arrow.classList.add('open');
+            arrow.classList.remove('close');
+            event.preventDefault();
+        }
+        else {
+            menu.classList.remove('show');
+            menu.classList.add('hide');
+            arrow.classList.remove('open');
+            arrow.classList.add('close');
+            event.preventDefault();
+        }
+    };
+})
+
+Element.prototype.hasClass = function(className) {
+    return this.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(this.className);
+};
+</script>
+
+					
+			
+
+	</body>
+</html>
